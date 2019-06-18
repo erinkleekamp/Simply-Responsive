@@ -1,0 +1,71 @@
+*{
+    margin: 2px;
+}
+.container {
+    width: 900px;
+    height: 900px;
+    display: block;
+}
+
+.topbar {
+    
+    vertical-align: top;
+    
+}
+.topbar h1 {
+    width: 100%;
+    background-color:#aea7a7;
+    font-size: 24px;
+    border: 1px solid grey;
+    padding-bottom: 5px;
+    font-family: 'Arial Narrow';
+}
+
+.topbar p {
+    width: 100%;
+    background-color: #ded7d7;
+    font-size: 15px;
+    border: 1px solid grey;
+    padding-bottom: 5px;
+    font-family: 'Arial Narrow';
+}
+.phone {
+    background-color: yellow;
+    border: 1px solid grey;
+
+}
+.tablet{
+    background-color: pink;
+    border: 1px solid grey;
+
+}
+.desktop{
+    background-color: lightgreen;
+     border: 1px solid grey;
+
+}
+
+@media screen and (max-width: 600px) {
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 601px) and (max-width: 800px){
+    .iphone{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+@media screen and (min-width: 1024px){
+    .iphone{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    
